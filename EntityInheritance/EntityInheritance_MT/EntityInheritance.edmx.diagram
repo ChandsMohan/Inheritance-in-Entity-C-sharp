@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="34694cf5670549f0b86a758fc9aa9198" Name="Diagram1">
+        <EntityTypeShape EntityType="EntityInheritanceModel.Client" Width="1.5" PointX="6.25" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EntityInheritanceModel.Employee" Width="1.5" PointX="8.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EntityInheritanceModel.Login" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EntityInheritanceModel.Person" Width="1.5" PointX="8.625" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EntityInheritanceModel.Vendor" Width="1.5" PointX="11.125" PointY="3" IsExpanded="true" />
+        <InheritanceConnector EntityType="EntityInheritanceModel.Client" />
+        <InheritanceConnector EntityType="EntityInheritanceModel.Employee" />
+        <InheritanceConnector EntityType="EntityInheritanceModel.Vendor" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
